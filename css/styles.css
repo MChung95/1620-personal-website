@@ -1,3 +1,7 @@
+h1 {
+    padding-top: 100px;
+}
+
 body {
     background-color: #002642;
     color: #E5DADA;
@@ -15,5 +19,41 @@ nav {
     margin: 1rem;
     padding: 1rem;
     outline-offset: 0.5rem;
+    position: fixed;
+    background-color: #002642;
 }
 
+ul.course {
+    list-style-type: hiragana;
+    margin: 15px;
+    padding: 20px;
+}
+
+.box {
+    float: left;
+    margin-right: 10px;
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+}
+
+#navmenu {
+    display: inline;
+    text-decoration: none;
+	margin:10px;
+	width:800px;
+}
+
+#navmenu li {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+}
+
+#navmenu a {
+	display:block;
+	padding:0px;
+	text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
